@@ -1,9 +1,7 @@
 package com.database.example.jpa.domain.listener;
 
 import com.database.example.jpa.domain.BaseEntity;
-import org.springframework.beans.factory.annotation.Autowired;
 
-import javax.persistence.PostPersist;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import java.time.LocalDateTime;
